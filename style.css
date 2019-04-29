@@ -1,5 +1,10 @@
-html {
-	background: url('img/background.png');
+.background-dark {
+	background: url('img/background-dark.png');
+	background-repeat: repeat;
+}
+
+.background-light {
+	background: url('img/background-light.png');
 	background-repeat: repeat;
 }
 
@@ -8,8 +13,6 @@ a {
 }
 
 body {
-	color: white;
-	background: black;
 	max-width: 800px;
   margin: 100px auto 100px auto;
   padding-top: 5px;
@@ -18,15 +21,25 @@ body {
   padding-right: 10px;
 }
 
+.body-dark {
+	color: white;
+	background: black;
+}
+
+.body-light {
+	color: black;
+	background: white;
+}
+
 img {
   margin: auto 20px auto 20px;
 }
 
-.breakinglineimg {
+.breaking-line-img {
   display: block;
   padding-top: 20px;
 }
 
-.gameart {
+.game-art {
   max-width: 350px;
 }
