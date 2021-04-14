@@ -8,6 +8,11 @@
 	background-repeat: repeat;
 }
 
+.background-strange-aeons {
+	background: url('img/background.gif');
+	background-repeat: repeat;
+}
+
 a {
   color: #00ffff;
 }
@@ -33,6 +38,15 @@ body {
 .body-light {
 	color: black;
 	background: white;
+}
+
+.body-strange-aeons {
+	color: yellow;
+	background: black;
+  border-width: 8px;  
+  border-style: ridge;
+  border-color: cyan;
+  font-family: 'StrangeAeons',
 }
 
 img {
