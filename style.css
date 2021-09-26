@@ -58,7 +58,7 @@ body {
 	color: yellow;
 	background: black;
   border-width: 8px;
-  border-image: url("img/bloodline.gif") 100 / 19px;
+  border-image: url("img/bloodline.gif") 24 / 24px;
 }
 
 img {
