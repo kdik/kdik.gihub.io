@@ -51,7 +51,7 @@ body {
   border-width: 8px;  
   border-style: ridge;
   border-color: cyan;
-  font-family: 'StrangeAeons',
+  font-family: 'StrangeAeons';
 }
 
 .body-acos {
@@ -59,6 +59,14 @@ body {
 	background: black;
   border-width: 8px;
   border-image: url("img/bloodline.gif") 24 / 24px;
+}
+
+.body-works {
+	color: yellow;
+	background: black;
+  border-width: 8px;  
+  border-style: ridge;
+  border-color: lime;
 }
 
 img {
